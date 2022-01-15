@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhereAreMyFiles</string>
+    <string name="title_home">Search</string>
+    <string name="title_mine">Mine</string>
+</resources>
