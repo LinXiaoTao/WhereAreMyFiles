@@ -12,7 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/window_background</item>
     </style>
 
-    <style name="Theme.Main" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.Main" parent="Theme.WhereAreMyFiles" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

@@ -2,4 +2,7 @@
     <string name="app_name">WhereAreMyFiles</string>
     <string name="title_home">Search</string>
     <string name="title_mine">Mine</string>
+    <string name="hint_search">Search Anything</string>
+    <string name="slogan">Where are my files?</string>
+    <string name="title_history_list">Recent files</string>
 </resources>

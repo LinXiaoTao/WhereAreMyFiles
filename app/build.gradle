@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -47,4 +48,15 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // 协程
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinxCoroutinesAndroid_version"
+    // https://github.com/orhanobut/logger
+    implementation "com.orhanobut:logger:$logger_version"
+    // 权限处理 https://github.com/permissions-dispatcher/PermissionsDispatcher
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher:$permissionsdispatcher_version"
+    kapt "com.github.permissions-dispatcher:permissionsdispatcher-processor:$permissionsdispatcher_version"
+    // 图片加载 https://github.com/coil-kt/coil
+    implementation "io.coil-kt:coil:$coil_version"
+
 }
